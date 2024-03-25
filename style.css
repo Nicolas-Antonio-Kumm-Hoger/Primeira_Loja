@@ -15,21 +15,21 @@ body{
 }
 header{
     grid-area: cabeca;
-    background-color: chocolate;
+    background-color: rgb(61, 61, 61);
     height: 130px;
 }
 aside{
     grid-area: secundario;
-    background-color: blue;
+    background-color: rgb(68, 227, 255);
 }
 main{
     grid-area: principal;
-    background-color: chartreuse;
+    background-color: rgb(59, 72, 255);
     height: 700px;
 }
 footer{
     grid-area: rodape;
-    background-color: burlywood;
+    background-color: rgb(0, 140, 255);
     height: 200px;
 }
 @media only screen and (max-width: 800px) {
@@ -48,4 +48,31 @@ h1{
 }
 h2{
     text-align: center;
+}
+.elementomae{
+    height: 300px;
+    justify-content:  space-around;
+    border: 2px blue solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.caixa{
+    box-shadow: 3px 1px 3px 1px rgb(0, 0, 0);
+    width: 150px;
+    height: 150px;
+}
+.hnl{
+    display: inline;
+    margin: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+nav li a:hover{
+    color: antiquewhite;
+    background-color: black;
 }
