@@ -52,7 +52,6 @@ h2{
 .elementomae{
     height: 300px;
     justify-content:  space-around;
-    border: 2px blue solid;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -69,6 +68,12 @@ h2{
     display: flex;
     flex-direction: column;
     margin: 5px;
+    transition: 1s;
+}
+/* Aqui faço a transição quando passar o mouse */
+/* Inicio transição Card */
+.card:hover{
+    background-color: aquamarine;
 }
 .card img{
     width: 200px;
@@ -86,8 +91,15 @@ h2{
     height: 20px;
     width: 120px;
     text-align: center;
-    
+    transition: 1s;
 }
+/* Aqui faço a transição quando passar o mouse */
+/* Inicio transição botão Card */
+
+.card a:hover{
+    background-color: blanchedalmond;
+}
+/* Fim da transição botão card */
 .hnl{
     display: inline;
     margin: 10px;
