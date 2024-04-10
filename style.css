@@ -4,42 +4,42 @@
 
 body{
     display: grid;
-    gap: 5px;
     grid-template-areas: 
     "cabeca cabeca cabeca"
     "secundario principal principal"
     "rodape rodape rodape";
     grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 130px auto auto;
-    background-color: rgb(0, 0, 0);
+    grid-template-rows: 170px auto auto auto;
 }
 /* Logotipo */
 
 .logow{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     position: absolute;
-    right: 10px;
+    left: 10px;
+    margin-top: 5px;
 }
 
 /* Fim Logotipo */
 header{
     grid-area: cabeca;
-    background-color: rgb(0, 174, 255);
+    background-color: rgb(0, 238, 255);
     position: relative;
 }
 aside{
     grid-area: secundario;
-    background-color: rgb(68, 227, 255);
+    background-color: rgb(186, 245, 255);
 }
 main{
     grid-area: principal;
-    background-color: rgb(59, 72, 255);
+    background-color: rgb(0, 140, 255);
 
 }
 footer{
     grid-area: rodape;
-    background-color: rgb(0, 140, 255);
+    background-color: rgb(69, 202, 255);
+    position: relative;
 }
 @media only screen and (max-width: 800px) {
     body{
@@ -108,16 +108,31 @@ h2{
     background-color: blanchedalmond;
 }
 /* Fim da transição botão card */
-.hnl{
+
+/* Aqui faço o NavBar */
+header nav li{
     display: inline;
-    margin: 10px;
 }
-nav li a{
+
+header nav{
+    position: absolute;
+    top: 20px;
+    right: 40px;;
+}
+
+header nav a{
     text-decoration: none;
     color: black;
-    transition: 1s;
 }
-nav li a:hover{
-    color: antiquewhite;
-    background-color: black;
+/* Aqui termina o NavBar */
+
+/* Footer NavBar in */
+footer nav li{
+    display: inline;
+    text-decoration: none;
 }
+
+footer nav a{
+    text-decoration: none;
+}
+/* Footer NavBar out */
