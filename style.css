@@ -14,10 +14,10 @@ body{
 /* Logotipo */
 
 .logow{
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     position: absolute;
-    left: 10px;
+    left: 900px;
     margin-top: 5px;
 }
 
@@ -136,3 +136,5 @@ footer nav a{
     text-decoration: none;
 }
 /* Footer NavBar out */
+
+
