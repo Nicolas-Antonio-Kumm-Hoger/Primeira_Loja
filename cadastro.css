@@ -58,4 +58,40 @@ footer{
     height: 40px;
     width: 50px;
 }
+/* email */
+.eml{
+    position: absolute;
+    top: 40px;
+}
+/* senha */
+.ems{
+    position: absolute;
+    top: 130px;
+}
+/* esqueceu a senha */
+.eme{
+    position: absolute;
+    top: 180px;
+}
+/* lugar para escrever */
+.inpe{
+    position: absolute;
+    top: 60px;
+    width: 400px;
+}
+
+.inps{
+    position: absolute;
+    top: 150px;
+    width: 400px;
+}
+
+/* botao */
+.bu{
+    position: absolute;
+    top: 250px;
+    width: 400px;
+    height: 30px;
+    left: 50px;
+}
 
