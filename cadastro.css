@@ -58,32 +58,35 @@ footer{
     height: 40px;
     width: 50px;
 }
-/* email */
-.eml{
-    position: absolute;
-    top: 40px;
+/* aqui faço input senha */
+.senha{
+    position: absolute ;
+    top: 150px;
+    left: 100px;
+    width: 350px;
+    height: 20px;
 }
-/* senha */
-.ems{
-    position: absolute;
+.sen{
+    position: absolute ;
     top: 130px;
+    left: 100px;
+
 }
-/* esqueceu a senha */
+.login{
+    position: absolute ;
+    top: 80px;
+    left: 100px;
+    width: 350px;
+    height: 20px;
+}
+.log{
+    position: absolute ;
+    left: 100px;
+    top: 55px;
+}
 .eme{
     position: absolute;
-    top: 180px;
-}
-/* lugar para escrever */
-.inpe{
-    position: absolute;
-    top: 60px;
-    width: 400px;
-}
-
-.inps{
-    position: absolute;
-    top: 150px;
-    width: 400px;
+    top: 210px;
 }
 
 /* botao */
